@@ -879,3 +879,9 @@ li span:hover:after {
     background: #555;
 
 }
+
+.shaded-input {
+    background-color: #00000; /* Adjust the background color as needed */
+    border: 1px solid #ccc;
+    padding: 5px;
+}
