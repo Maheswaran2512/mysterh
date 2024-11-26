@@ -43,10 +43,18 @@
                 </div>
                 <div class="nav-items">
                     <ul>
+                                                                 
                         <li><span><a href="about.html">About</a></span></li>
                         <li><span><a href="work.html">Work</a></span></li>
                         <li><span><a href="uses.html">Uses</a></span></li>
                         <li><span><a href="contact.html">Contact</a></span></li>
+                        <div class="toggle-container">
+                            <label class="switch">
+                                <input type="checkbox" id="theme-toggle">   
+                    
+                                <span class="slider"></span>
+                            </label>
+                        </div>
                     </ul>
                 </div>
             </center>
@@ -104,6 +112,15 @@
     <div class="legal">
         <a href="legal.html">Legal</a>
     </div>
+    <script>
+        // JavaScript to handle theme switching
+        const themeToggle = document.getElementById('theme-toggle');
+
+        themeToggle.addEventListener('change', () => {
+            document.body.classList.toggle('dark-theme');   
+
+        });
+    </script>
 </body>
 
 </html>
