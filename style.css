@@ -939,3 +939,43 @@ input:checked + .slider:before {
     background-color: #222;
     color: #fff;
 }
+
+.theme-switch-logo {
+    position: auto;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 9999;
+    transition: opacity 0.3s ease;
+}
+.theme-switch-logo {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+    z-index: 9999;
+    transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .theme-switch-logo {
+        display: block; /* Show the logo on mobile */
+    }
+}
+.theme-switch-logo:hover {
+    opacity: 100;
+}
+.light-theme {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #222;
+    color: #f9f9f9;
+}
