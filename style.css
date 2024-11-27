@@ -212,7 +212,7 @@ body {
 }
 
 .social-icons a:hover {
-    color: blue;
+    color: #14CEB1;
 }
 
 li span a {
@@ -285,7 +285,7 @@ li span a:hover {
     display: block;
     width: 80vw;
     margin: auto;
-
+    
     margin-top: 20px;
     left: 0;
     right: 0;
@@ -296,8 +296,6 @@ li span a:hover {
     height: 100%;
     float: left;
     margin-top: 15px;
-   
-
 }
 
 
@@ -540,8 +538,8 @@ label {
 }
 
 .learn-btn:hover {
-    background: blue;
-    border: 2px solid blue;
+    background: #14CEB1;
+    border: 2px solid #14CEB1;
 }
 
 .contact-btn {
@@ -554,13 +552,13 @@ label {
 }
 
 .contact-btn:hover {
-    color: blue;
-    border: 2px solid blue;
+    color: #14CEB1;
+    border: 2px solid #14CEB1;
 }
 
 #hero-img {
-    margin-top: 50px;
-    width: 90%;
+    margin-top: 20px;
+    width: 75%;
 }
 
 #left-hero {
@@ -595,7 +593,7 @@ li {
 }
 
 .social-icons {
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .footer-full {
@@ -882,7 +880,7 @@ li span:hover:after {
 }
 
 .shaded-input {
-    background-color: #000; /* Adjust the background color as needed */
+    background-color: rgb(23, 240, 229); /* Adjust the background color as needed */
     border: 1px solid #ccc;
     padding: 5px;
 }
@@ -926,7 +924,7 @@ li span:hover:after {
 }
 
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: #14CEB1;
 }
 
 input:checked + .slider:before {
