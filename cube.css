@@ -1,0 +1,36 @@
+/* Cube Animation */
+@-webkit-keyframes cube {
+    0% {
+      -webkit-transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+              transform: rotate(45deg) rotateX(-25deg) rotateY(25deg); }
+    50% {
+      -webkit-transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+              transform: rotate(45deg) rotateX(-385deg) rotateY(25deg); }
+    100% {
+      -webkit-transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+              transform: rotate(45deg) rotateX(-385deg) rotateY(385deg); } }
+  @keyframes cube {
+    0% {
+      -webkit-transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+              transform: rotate(45deg) rotateX(-25deg) rotateY(25deg); }
+    50% {
+      -webkit-transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+              transform: rotate(45deg) rotateX(-385deg) rotateY(25deg); }
+    100% {
+      -webkit-transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+              transform: rotate(45deg) rotateX(-385deg) rotateY(385deg); } }
+  
+  .cube {
+    -webkit-animation: cube 2s infinite ease;
+            animation: cube 2s infinite ease;
+    height: 40px;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    width: 40px; }
+    .cube div {
+      background-color: rgba(255, 255, 255, 0.25);
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      border: 2px solid white; }
+  
