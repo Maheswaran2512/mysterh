@@ -281,7 +281,7 @@ li span a:hover {
 
 .nav-desk {
     height: 10vh;
-    /* position: fixed; */
+    /* position: sticky; */
     display: block;
     width: 80vw;
     margin: auto;
@@ -881,6 +881,7 @@ li span:hover:after {
 
 .shaded-input {
     background-color: rgb(23, 240, 229); /* Adjust the background color as needed */
+
     border: 1px solid #ccc;
     padding: 5px;
 }
